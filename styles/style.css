@@ -17,15 +17,15 @@ img {
     color: rgb(70, 64, 64);
 }
 
-footer {
+#foot {
     background-color:#666666;
     border-top: 8px solid #4aaaa5; 
-    /* height: 100px;  */
+   width: 100%;
     color: rgb(70, 64, 64);
+    bottom: 0%;
+    position: fixed;
     
-    /* position: fixed; */
-    /* left: 0px; */
-    bottom:0px; 
+    /* height: 100px;  */
     /* text-align: center;
     line-height: 5em; */
     }
