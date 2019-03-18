@@ -1,0 +1,31 @@
+body {
+background-color:lightgray;
+color: rgb(70, 64, 64);
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+#navigation {
+   background-color: #4aaaa5;
+    height: 3em;  
+}
+
+#menuitems {
+    color: rgb(70, 64, 64);
+}
+
+footer {
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5; 
+    /* height: 100px;  */
+    color: rgb(70, 64, 64);
+    
+    /* position: fixed; */
+    /* left: 0px; */
+    bottom:0px; 
+    /* text-align: center;
+    line-height: 5em; */
+    }
