@@ -1,22 +1,93 @@
+/* this class is on all html  */
 body {
 background-color:lightgray;
 color: rgb(70, 64, 64);
+font-family: serif;
+font-size: 1em;
 
 }
 
-img {
-    width: 100%;
+#photo {
+    position: absolute;
     height: 100%;
+    width: 70%;
 }
+
+
+/* this id  is on all html  */
 #navigation {
+   
    background-color: #4aaaa5;
-    height: 3em;  
+   border-bottom: #666666 8px solid;
+    height: 80px;
 }
 
-#menuitems {
+/* This id is on all html  */
+#menuitem {
+    background-color: #4aaaa5;
     color: rgb(70, 64, 64);
+    font-weight: bold;
+    margin: auto .5em;
+    border-color:  rgb(70, 64, 64);
 }
 
+ 
+
+/* this id is on all html  */
+#menuitem:hover {
+    background-color:lightgray;
+    
+}
+
+
+#ColOne {
+   
+    border: solid black 1px ;
+    height: 500px; 
+    padding: 0px; 
+}
+#ColThree {
+   
+    border: solid black 1px ;
+    height: 500px;  
+    margin-bottom: 1em;
+    padding: 0%;
+}
+ #imgOne {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   padding: 0%;
+   margin: 0;
+
+    /* text-align: center;
+    color: white;
+    margin: 10px 10px 10px 20px; */
+ }
+
+ .Center h5{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: rgb(70, 64, 64);
+font-family: serif;
+font-size: 1em;
+font-weight: bold;
+line-height: 2em;
+height: 15%;
+
+  }
+
+  .Center:hover {
+    background-color:lightgray;
+  }
+
+
+/* this id is on all html  */
 #foot {
     background-color:#666666;
     border-top: 8px solid #4aaaa5; 
@@ -24,8 +95,24 @@ img {
     color: rgb(70, 64, 64);
     bottom: 0%;
     position: fixed;
+    margin-top: 2em;
     
     /* height: 100px;  */
     /* text-align: center;
     line-height: 5em; */
+    }
+
+    #portfolioFoot {
+        background-color:#666666;
+    border-top: 8px solid #4aaaa5; 
+   width: 100%;
+    color: rgb(70, 64, 64);
+    bottom: 0%;
+    /* position: fixed; */
+    margin-top: 2em;
+
+    }
+
+    #messagebox {
+        height: 50%;
     }
