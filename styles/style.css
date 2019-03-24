@@ -1,4 +1,4 @@
-/* this class is on all html  */
+
 body {
 background-color:lightgray;
 color: rgb(70, 64, 64);
@@ -8,7 +8,7 @@ font-size: 1em;
 }
 
 #photo {
-    position: absolute;
+    /* position: absolute; */
     height: 100%;
     width: 70%;
 }
