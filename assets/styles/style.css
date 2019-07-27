@@ -17,18 +17,20 @@ font-size: 1em;
 /* this id  is on all html  */
 #navigation {
    
-   background-color: #4aaaa5;
-   border-bottom: #666666 8px solid;
+   /* background-color: #4aaaa5; */
+   /* border-bottom: #666666 8px solid; */
     height: 80px;
 }
 
 /* This id is on all html  */
 #menuitem {
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
     color: rgb(70, 64, 64);
     font-weight: bold;
-    margin: auto .5em;
-    border-color:  rgb(70, 64, 64);
+    /* margin: auto .5em; */
+  display: block;
+ /* margin-left: 400px; */
+    /* border-color:  rgb(70, 64, 64); */
 }
 
  
