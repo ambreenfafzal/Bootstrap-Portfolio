@@ -1,112 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ambreen Afzal</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <body>
+    <header>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        
+          <h1 id="headerText" class="display-4">Ambreen Fatimah Afzal </h1>
+          <h4 style="color: whitesmoke">Full Stack Web Developer</h4>
+          
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <title>Ambreen Afzal </title>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" id="menuitem" href="index.html"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="menuitem" href="portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="menuitem" href="contact.html">Contact </a>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+          <div class="accordion" id="accordionExample">
+              <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Me
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text 
+                  </div>
+                </div>
+              </div>
+             
+             
+            </div>
+            <div class="card z-depth-0 bordered">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Portfolio
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                 <div class="row">
+                   <div class="col-md-6">
+                      <div class="card-body">
+                          <div class="card" style="width: 18rem;">
+                              <img src="./assets/images/A-002-2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div> 
+                       
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                      <div class="card-body">
+                          <div class="card" style="width: 18rem;">
+                              <img src="./assets/images/A-002-2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div> 
+                       
+                      </div>
+                   </div>
+                   <div class="col-md-6">
+                      <div class="card-body">
+                          <div class="card" style="width: 18rem;">
+                              <img src="./assets/images/A-002-2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div> 
+                       
+                      </div>
+                   </div>
+                 </div>
+               
+               
+                </div>
+              </div>
 
-</head>
-
-<body>
-
-  <header>
-
-<!-- Jumbotron -->
-<div class="jumbotron">
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" id="menuitem" href="index.html">Ambreen</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="menuitem" href="portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="menuitem" href="contact.html">Contact </a>
-    </li>
-   
-  </ul>
+              <div class="card z-depth-0 bordered">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Contact
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text  About me text 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
   
-</div>
 
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2">
-          <img src="images/thumbnail_IMG_4967.jpg" alt="Picture of Ambreen " id="photo">
-
-        </div>
-        <div class="col-md-10">
-        Hi, I am Ambreen. I have been working as a Quality Assurance
-
-
-
-        </div>
-
-
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-
-          <br>
-          Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of
-          Glory elder wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells
-          tap-dancing spider Slytherin’s Heir mewing kittens Remus Lupin. Palominos scarlet train black robes,
-          Metamorphimagus Niffler dead easy second bedroom. Padma and Parvati Sorting Hat Minister of Magic blue turban
-          remember my last.
-
-
-        </div>
-
-
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <br>
-          Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog.
-          Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye
-          Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under
-          the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose. Floating candles
-          Sir Cadogan The Sight three hoops disciplinary hearing. Grindlewald pig’s tail Sorcerer's Stone biting teacup.
-          Side-along dragon-scale suits Filch 20 points, Mr. Potter.
-        </div>
-      </div>
-
+    </header>
+  </body>
+  <script src="./assets/javascript/index.js"></script>
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="foot">
+      © 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> </a>
     </div>
-
-  </header>
-
-
-</body>
-<script src="./assets/javascript/index.js"></script>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" id="foot">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> </a>
-  </div>
-
-
-</footer>
-
-
-
-
+  </footer>
 </html>
