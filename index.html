@@ -1,88 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/styles/style.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <title>Ambreen Afzal</title>
-</head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Judson|Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Judson&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Judson&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ambreen Afzal</title>
+  </head>
 
-<body style="background-color: rgb(68, 180, 195)">
-  <header>
-    <!-- Jumbotron -->
-    <div class="jumbotron">
+  <body style="background-color:whitesmoke">
+    <header>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 id="headerText" class="display-4">Ambreen Fatimah Afzal</h1>
+        <h4 style="color: whitesmoke">Full Stack Web Developer</h4>
+        <ul class="nav justify-content-end">
+          <li class="nav-item" id="aboutNav">
+              <button type="button" class="btn btn-dark">About</button>
+           
+          </li>
+          <li class="nav-item" id="portfolioNav">
+              <button type="button" class="btn btn-dark" id="portfolioNav">Portfolio</button>
+          </li>
+          <li class="nav-item">
+              <button type="button" class="btn btn-dark">Contact</button>
+          </li>
+        </ul>
+      </div>
 
-      <h1 id="headerText" class="display-4">Ambreen Fatimah Afzal </h1>
-      <h4 style="color: whitesmoke">Full Stack Web Developer</h4>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" id="menuitem" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="menuitem" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="menuitem" href="contact.html">Contact </a>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-4"
+            id="aboutMe"
+            style="color:black; font-family: 'Permanent Marker', cursive; text-align: center; border: solid 2px black;"
+          >
+            <h1>About Me</h1>
+          </div>
+          <div class="col-8"></div>
+        </div>
 
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-8" id="aboutBody">
+            testing col-8 testing col-8 testing col-8 testing col-8 testing
+            col-8 testing col-8 testing col-8 testing col-8 testing col-8
+            testing col-8 testing col-8 testing col-8 testing col-8 testing
+            col-8 testing col-8 testing col-8 testing col-8 testing col-8
+            testing col-8 testing col-8 testing col-8 testing col-8 testing
+            col-8 testing col-8 testing col-8
+          </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-8"></div>
+        </div>
+        <br />
 
-    </div>
+        <div class="row" id="firstRow">
+          <div class="col-4">
+            <div
+              class="col-4"
+              id="aboutMe"
+              style="color: black; font-family: 'Permanent Marker', cursive; border: solid black 2px;"
+            >
+              <h1>Portfolio</h1>
+            </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <h5 class="card-header" id="about">About Me</h5>
-            <div class="card-body">
+            <div
+              id="htmlDiv"
+              style="background-color: whitesmoke ; color: black; font-family: 'Permanent Marker', cursive; text-align: center; border:solid black 2px;"
+            >
+              <h3>HTML</h3>
+            </div>
+            <div
+              id="cssDiv"
+              style="color: black; font-family: 'Permanent Marker', cursive; text-align: center; border:solid black 2px;"
+            >
+              <h5>Mongo</h5>
 
-              <p class="card-text">With supporting text below as a natural lead-in to additional content. With
-                supporting text below as a natural lead-in to additional content.With supporting text below as a natural
-                lead-in to additional content.With supporting text below as a natural lead-in to additional content.With
-                supporting text below as a natural lead-in to additional content.With supporting text below as a natural
-                lead-in to additional content.With supporting text below as a natural lead-in to additional content.With
-                supporting text below as a natural lead-in to additional content.With supporting text below as a natural
-                lead-in to additional content.With supporting text below as a natural lead-in to additional content.With
-                supporting text below as a natural lead-in to additional content.With supporting text below as a natural
-                lead-in to additional content.With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5>Express</h5>
+              <h5>React</h5>
+            </div>
+
+            <div class="col-8"></div>
+          </div>
+
+          <div class="col-4">
+          
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="./assets/images/unit4-game2.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title"><strong>Crystal Collector</strong></h4>
+                <p class="card-text" >
+                 Fun and interactive game for web browsers built using HTML, CSS, JavaScript and jQuery library. 
+                
+                </p>
+                <button type="button" class="btn btn-outline-dark" 
+                onclick="window.open('https://github.com/ambreenfafzal/unit-4-game', '_blank')" 
+                >View in Github</button>
+                <button type="button" class="btn btn-outline-info">Open App</button>
+            
+              </div>
             </div>
           </div>
         </div>
+        <br />
+        <div class="row" id="secondRow">
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="./assets/images/trivia.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Trivia Game</strong></h5>
+                <p class="card-text" >
+                    Fun Trivia game using HTML, CSS, JavaScript and jQuery.
+                   
+                   </p>
+                   <button type="button" class="btn btn-outline-dark" 
+                   onclick="window.open('https://github.com/ambreenfafzal/unit-4-game', '_blank')" 
+                   >View in Github</button>
+                   <button type="button" class="btn btn-outline-info">Open App</button>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="./assets/images/giftastic.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                  <h5 class="card-title"><strong>Giftastic</strong></h5>
+                  <p class="card-text" >
+                      Giphy web app created using GIPHY API, HTML, CSS, JavaScript and jQuery. 
+                     
+                     </p>
+                     <button type="button" class="btn btn-outline-dark" 
+                     onclick="window.open('https://github.com/ambreenfafzal/unit-4-game', '_blank')" 
+                     >View in Github</button>
+                     <button type="button" class="btn btn-outline-info">Open App</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <!-- <div class="card">
+              <img
+                src="./assets/images/A-002-2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card titdsfdsle that wraps to a new line</h5>
+                <p class="card-text">
+                  This is a longer card with 
+                </p>
+                <button type="button" class="btn btn-link">
+                  View in Github
+                </button>
+                <button type="button" class="btn btn-link">Open App</button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-4">
+            <!-- <div class="card">
+              <img
+                src="./assets/images/A-002-2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title that wraps to a new line</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button type="button" class="btn btn-link">
+                  View in Github
+                </button>
+                <button type="button" class="btn btn-link">Open App</button>
+              </div>
+            </div> -->
+          </div>
 
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="./assets/images/train.JPG"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Train Scheduler</strong> </h5>
+                <p class="card-text">
+                 Train schedule app that incorporates  Firebase to host arrival and departure data.
+                </p>
+                <button type="button" class="btn btn-outline-dark" 
+                onclick="window.open('https://github.com/ambreenfafzal/unit-4-game', '_blank')" 
+                >View in Github</button>
+                <button type="button" class="btn btn-outline-info">Open App</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="./assets/images/A-002-2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title that wraps to a new line</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <button type="button" class="btn btn-link">
+                  View in Github
+                </button>
+                <button type="button" class="btn btn-link">Open App</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
+    </header>
+  </body>
+  <script src="./assets/javascript/index.js"></script>
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" id="foot">
+      © 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> </a>
     </div>
-
-
-
-
-
-  </header>
-</body>
-<script src="./assets/javascript/index.js"></script>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" id="foot">
-    © 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> </a>
-  </div>
-</footer>
-
+  </footer>
 </html>

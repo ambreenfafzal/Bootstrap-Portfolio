@@ -1,3 +1,50 @@
+#aboutMe {
+   border-radius: 25px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+
+}
+#htmlDiv {
+    border-radius: 25px;
+    background:#5BA9FF;
+    padding: 20px; 
+    width: 300px;
+    margin-top:-25px;
+    margin-left: 50px;
+      
+}
+
+#cssDiv {
+   border-radius: 25px; 
+   padding: 50px; 
+   width: 40px;
+   margin-top:-25px;
+
+}
+#javasDiv {
+    border-radius: 25px; 
+    padding: 10px; 
+    width: 100px;
+    height: 200px; 
+    margin-left: 100px;
+   
+
+}
+#aboutBody {
+    border-radius: 25px;
+    font-family: 'Judson', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background:whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+   margin-bottom: 200px;
+}
+
 
 body {
 background-color: whitesmoke;
@@ -10,32 +57,45 @@ font-size: 1em;
 #headerText {
     color: whitesmoke;
 }
+#portfolioHeader {
+    margin-left: 0;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: none; 
+}
+
+#projButton {
+margin-left: 80%;
+}
+img {
+ height: 200px;
+}
 
 
 
 #about {
-    text-align: center;
+    color: white;
+    font-weight: bold;  
+    display: block;
+}
+.btn-dark {
+    
+  color: white;
     font-weight: bold;
+  display: block;
+  margin: 10px;
+  
+
+    
 }
 
-
-#menuitem {
-    /* background-color: #4aaaa5; */
-     color: white;
-    font-weight: bold;
-    /* margin: auto .5em; */
-  display: block;
- /* margin-left: 400px; */
-    /* border-color:  rgb(70, 64, 64); */
+.btn-dark:hover {
+background-color: black;
 }
 
  
 
-/* this id is on all html  */
-#menuitem:hover {
-    background-color:lightgray;
-    
-}
+
 .jumbotron {
     background-color: black;
 }
@@ -113,20 +173,6 @@ height: 15%;
   }
 
 
-/* this id is on all html  */
-/* #foot {
-    background-color:#666666;
-    border-top: 8px solid #4aaaa5; 
-   width: 100%;
-    color: rgb(70, 64, 64);
-    bottom: 0%;
-    position: fixed;
-    margin-top: 2em;
-    
-    /* height: 100px;  */
-    /* text-align: center;
-    line-height: 5em; */
-    /* }  */
 
     #portfolioFoot {
         background-color:#666666;
