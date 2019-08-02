@@ -1,13 +1,40 @@
 #aboutMe {
-   border-radius: 25px;
+  
   padding: 20px; 
   width: 200px;
   height: 150px; 
+  border-bottom: solid 2px;
+  /* border-right: solid 2px; */
+
+}
+#contactMe{
+      
+  padding: 100px; 
+  width: 200px;
+  height: 150px; 
+  
+}
+#contactIcons{
+margin-top: 100px;
+padding: 10px;
+margin-left: 300px;
+}
+
+.fa-github, .fa-linkedin-square {
+    width: 50px;
+}
+
+#contactMeRow{
+    border-top: 2px solid whitesmoke;
+    height: 300px;
+}
+
+.container{
+   margin-top: -40px;
 
 }
 #htmlDiv {
     border-radius: 25px;
-    background:#5BA9FF;
     padding: 20px; 
     width: 300px;
     margin-top:-25px;
@@ -31,18 +58,30 @@
    
 
 }
+
+#wordGuess{
+    margin-top: -100px;
+}
+#memeImg {
+    margin-top: -80px;
+}
+
+#memeBody {
+    margin-top: -80px;
+}
 #aboutBody {
-    border-radius: 25px;
+   
     font-family: 'Judson', serif;
     font-family: 'Indie Flower', cursive;
     font-family: 'Permanent Marker', cursive;
-    background:whitesmoke;
     color: black;
     text-align: center;
     padding: 20px; 
     width: 200px;
-    height: 150px; 
+    height: 150;
    margin-bottom: 200px;
+  /* border-left: solid 2px whitesmoke;*/
+  border-bottom: solid 2px whitesmoke; 
 }
 
 
@@ -73,10 +112,14 @@ img {
 
 
 
-#about {
+#portfolioDiv {
     color: white;
     font-weight: bold;  
     display: block;
+    border-radius: 25px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
 }
 .btn-dark {
     
@@ -90,7 +133,7 @@ img {
 }
 
 .btn-dark:hover {
-background-color: black;
+background-color:  rgb(43, 190, 216);
 }
 
  
@@ -115,9 +158,7 @@ background-color: black;
 }
 
 
-.container {
-    margin-top: 10%;
-}
+
 .btn-link {
     color: black;
 }
@@ -187,4 +228,21 @@ height: 15%;
 
     #messagebox {
         height: 50%;
+    }
+
+
+    #floater {
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73AD21;
+
+    }
+
+  
+
+    .alertify.ajs-header {
+        background-color: yellow;
+        color: green;
     }
