@@ -29,14 +29,11 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <!-- Alertify JS -->
-    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.4/build/alertify.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
 
-<script src="/alertify.min.js"></script>
-<!-- Alertify CSS -->
-
-<link rel="stylesheet" href="./css/alertify.min.css" />
-<link rel="stylesheet" href="./css/themes/bootstrap.css" />
 
 <!-- local Style.css -->
 <link rel="stylesheet" href="./assets/styles/style.css" />
@@ -357,7 +354,10 @@
                      
                       <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close-button">Close</button>
-                          <button type="submit" class="btn btn-primary"id="send-button">Send message</button>
+                          <!-- <button type="submit" class="btn btn-primary"id="send-button">Send message</button> -->
+                          <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"id="send-button" >Send Message
+                           
+                          </button>
                           <!-- <button type="button" class="btn btn-primary">Send message</button> -->
                         </div>
                     </form>
@@ -368,6 +368,34 @@
                       <textarea class="form-control" id="message-text" placeholder="Hi Ambreen, let's connect!"></textarea>
                     </div>
                   </form> -->
+                  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="alert success" id="message" >
+  <span class="closebtn">&times;</span>  
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+<!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" 
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Confirmation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="dialog-message">
+        Your message has been sent. 
+      </div>
+      <div class="modal-footer">
+        
+         <button type="button" class="btn btn-primary">OK</button> 
+      </div>
+    </div>
+  </div>
+</div> -->
                 </div>
                
               </div>
